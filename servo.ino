@@ -1,15 +1,13 @@
-//www.elegoo.com
-//2016.12.08
+//Universidad de San Martin de Porres
 #include <Servo.h>
 
-Servo myservo;  // create servo object to control a servo
-// twelve servo objects can be created on most boards
+Servo myservo;  
 
-int pos = 0;    // variable to store the servo position
+int pos = 0;
 
 void setup() {
   Serial.begin(115200);
-  myservo.attach(9);  // attaches the servo on pin 9 to the servo object
+  myservo.attach(9);
 }
 
 void loop() {
